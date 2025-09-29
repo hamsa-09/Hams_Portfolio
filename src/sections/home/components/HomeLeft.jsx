@@ -7,7 +7,7 @@ import GlareHover from '../../../common/GlareHover';
 const HomeLeft = () => {
     const handleDownload = () => {
   const link = document.createElement("a");
-  link.href = "https://drive.google.com/file/d/1m9ehwks9-OIzEOA1PGGqDdpBppHVHvjt/view?usp=sharing"; // path in public/
+  link.href = "https://drive.google.com/file/d/1EZXZunfN4OzN9u73V9gkYkeJt3ftx7nM/view?usp=sharing"; // path in public/
   link.download = "Hamsavardhini-CV.pdf";
   document.body.appendChild(link);
   link.click();
